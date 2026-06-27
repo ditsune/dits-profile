@@ -12,6 +12,11 @@ export const SOCIAL_LIST = [
     handle: "@ditsune",
     url: "https://github.com/ditsune",
   },
+  {
+  name: "Discord",
+  handle: "@ditsyy",
+  url: "https://discord.com/users/ditsyy",
+  },
 ] as const;
 
 export const Connect = {
@@ -24,16 +29,25 @@ export const Connect = {
   ),
 
   ContactLink: () => (
-    <div className="space-y-4">
-      <Link
-        href="mailto:adiitsahranfadila@gmail.com"
-        className="group inline-flex items-center gap-3 text-foreground hover:text-primary transition-all duration-300 hover:gap-4"
-      >
-        <span className="text-base sm:text-lg">adiitsahranfadila@gmail.com</span>
-        <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
-      </Link>
+  <div className="space-y-4">
+    <Link
+      href="mailto:adiitsahranfadila@gmail.com"
+      className="group inline-flex items-center gap-3 text-foreground hover:text-primary transition-all duration-300 hover:gap-4"
+    >
+      <span className="text-base sm:text-lg">adiitsahranfadila@gmail.com</span>
+      <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
+    </Link>
+    <Link
+      href="https://discord.com/users/ditsyy"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group inline-flex items-center gap-3 text-muted-foreground hover:text-foreground transition-all duration-300 hover:gap-4"
+    >
+      <span className="text-base sm:text-lg">@ditsyy</span>
+      <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
+    </Link>
     </div>
-  ),
+   ),
 
   SocialCard: ({ item }: { item: (typeof SOCIAL_LIST)[number] }) => (
     <Link
