@@ -9,7 +9,7 @@ export const SOCIAL_LIST = [
   },
   {
     name: "Github",
-    handle: "@cuakproject",
+    handle: "@ditsune",
     url: "https://github.com/ditsune",
   },
 ] as const;
