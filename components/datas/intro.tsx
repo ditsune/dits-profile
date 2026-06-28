@@ -25,21 +25,20 @@ export const Intro = {
 
 About: () => (
   <p className="text-base sm:text-xl text-muted-foreground leading-relaxed">
-    Saya menangani <Bold>200+ transaksi dan 300+ chat pelanggan</Bold> setiap
-    hari di industri top-up game online — dengan fokus pada akurasi, kecepatan,
-    dan konsistensi layanan.
+    Saya bekerja di operasional digital — menangani{" "}
+    <Bold>200+ transaksi dan 300+ chat pelanggan</Bold> setiap hari dengan
+    fokus pada akurasi dan kecepatan.
     <br />
     <br />
-    Karena tidak suka pekerjaan yang repetitif, saya membangun{" "}
-    <Bold>tools internal sendiri</Bold> — mulai dari otomatisasi invoice,
-    dashboard penjualan, hingga ekstensi browser — yang akhirnya dipakai
-    seluruh tim dan diapresiasi perusahaan.
+    Tapi yang lebih saya perhatikan bukan volumenya — melainkan bagian mana
+    dari pekerjaan itu yang harusnya tidak perlu dilakukan manusia. Dari situ
+    saya mulai membangun: otomatisasi invoice, dashboard penjualan, template
+    customer service, ekstensi browser. Semua lahir dari{" "}
+    <Bold>masalah nyata yang saya temukan sendiri</Bold>, dan semuanya dipakai
+    tim setiap hari.
     <br />
     <br />
-    Saya percaya solusi terbaik lahir dari orang yang paling ngerti masalahnya
-    — setiap tools yang saya bangun berawal dari{" "}
-    <Bold>masalah nyata</Bold> dan menghasilkan{" "}
-    <Bold>solusi praktis yang benar-benar digunakan</Bold>.
+    Saya percaya solusi terbaik lahir dari orang yang paling ngerti masalahnya.
   </p>
 ),
 
