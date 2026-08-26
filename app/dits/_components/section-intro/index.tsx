@@ -29,17 +29,17 @@ export default function SectionIntro({ onRef }: Props) {
           {/* CTA */}
           <div className="flex flex-wrap gap-3 pt-2">
             <Link
-              href="#connect"
-              className="inline-flex items-center gap-2 px-4 py-2 bg-foreground text-background text-sm font-medium rounded-lg hover:opacity-80 transition-opacity duration-200"
-            >
-              Hubungi Saya
-            </Link>
-            <Link
               href="#projects"
               className="inline-flex items-center gap-2 px-4 py-2 border border-border text-foreground text-sm font-medium rounded-lg hover:border-muted-foreground/50 transition-colors duration-200"
             >
               Lihat Projects
               <ArrowDown className="w-3.5 h-3.5" />
+            </Link>
+            <Link
+              href="#connect"
+              className="inline-flex items-center gap-2 px-4 py-2 bg-foreground text-background text-sm font-medium rounded-lg hover:opacity-80 transition-opacity duration-200"
+            >
+              Hubungi Saya
             </Link>
           </div>
         </article>
