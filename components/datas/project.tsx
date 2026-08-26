@@ -29,14 +29,14 @@ export const PROJECT_LIST = [
   },
   {
     slug: "mayo-chart",
-    name: "Mayo Chart | Sales Dashboard",
+    name: "Mayo Chart | Forensic Sales Dashboard",
     description:
-      "Dashboard rekap penjualan & performa admin yang mengagregasi data dari 3 sumber sekaligus (Website, Telegram, Reseller) ke dalam satu visualisasi interaktif — lengkap dengan ranking per tim dan podium top item terjual. Mengeliminasi 95% proses rekap manual.",
+      "Dashboard analytics yang mengagregasi data dari 3 sumber (Website, Telegram, Reseller) sekaligus mendeteksi anomali secara otomatis — kode akun ketuker, transaksi ngambang, dan typo kode via algoritma Levenshtein. Dilengkapi fitur Deep Identify untuk investigasi mendalam per akun. Mengeliminasi 95% proses rekap manual.",
     imageUrl: "/projects/mayochart.png",
     liveUrl:
       "https://script.google.com/macros/s/AKfycbypBvGxHYkmxz--KsGJfOEjwwb2ssf2_Df4YBxbaoGISuBoArO_4ABfAgKQBvEA1s97/exec",
     githubUrl: "https://github.com/cuakproject/mayo-chart",
-    tech: ["Google Apps Script", "Chart.js", "HTML", "JavaScript"],
+    tech: ["Google Apps Script", "Chart.js", "Levenshtein Algorithm"],
     badge: "95% lebih cepat",
   },
   {
@@ -53,7 +53,7 @@ export const PROJECT_LIST = [
     slug: "sigmacro",
     name: "SigMacro | Automation Tool",
     description:
-      "Tools AutoHotkey v2 dengan GUI untuk mengotomatisasi alur login dan manajemen backup code. Dilengkapi gerak mouse humanized (Bezier curve), image search dengan toleransi warna, auto-update, dan statistik sesi. Memangkas 90% proses manual.",
+      "Tools AutoHotkey v2 dengan GUI untuk mengotomatisasi alur login, manajemen backup code, dan logout Xbox. Dilengkapi gerak mouse humanized (Bezier curve), visual region picker untuk kalibrasi koordinat, image search dengan toleransi warna, dan auto-update. Memangkas 90% proses manual.",
     imageUrl: "/projects/sigmacro.png",
     githubUrl: "https://github.com/cuakproject/SigMacro",
     tech: ["AutoHotkey v2", "Image Recognition", "Bezier Curve Algorithm"],
@@ -63,17 +63,17 @@ export const PROJECT_LIST = [
     slug: "swannhub",
     name: "SwannHub | Login Automation",
     description:
-      "Server otomatisasi login akun Roblox berbasis Express dan Puppeteer, dengan worker terpisah untuk memisahkan logika login dari server utama. Memangkas waktu proses dari 3 menit menjadi 1 menit per akun.",
+      "Server otomatisasi login akun Roblox berbasis Express dan Playwright, dengan worker terpisah untuk memisahkan logika login dari server utama. Memangkas waktu proses dari 3 menit menjadi 1 menit per akun.",
     imageUrl: "/projects/swannhub.png",
     githubUrl: "https://github.com/ditsune/SwannHub",
-    tech: ["Node.js", "Express", "Puppeteer"],
+    tech: ["Node.js", "Express", "Playwright"],
     badge: "3 menit → 1 menit",
   },
   {
     slug: "sigmadots",
     name: "SigmaDOTS | Chrome Extension",
     description:
-      "Ekstensi browser Manifest V3 yang mengotomatisasi workflow di tiga platform sekaligus: Roblox (login & 2SV helper, manajemen Xbox), Google Sheets (auto-copy, notifikasi), dan Mayoblox (order workflow). Memangkas 90% workflow repetitif harian.",
+      "Ekstensi browser Manifest V3 yang mengotomatisasi workflow di tiga platform sekaligus: Roblox (login & 2SV helper, manajemen Xbox), Google Sheets (auto-copy, generate invoice otomatis), dan Mayoblox (order workflow). Dilengkapi export/import settings. Memangkas 90% workflow repetitif harian.",
     imageUrl: "/projects/sigmadots.png",
     githubUrl: "https://github.com/ditsune/sigmadots-nokey",
     tech: ["JavaScript", "Chrome Extension Manifest V3", "Service Worker"],
