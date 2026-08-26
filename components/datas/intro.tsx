@@ -13,7 +13,7 @@ const FOCUS_SKILL = [
 export const Intro = {
   Sub: () => (
     <div className="text-sm text-muted-foreground font-mono tracking-wider">
-      Automation & Internal Tools Developer
+      Automation & Tools Developer
     </div>
   ),
 
@@ -26,19 +26,17 @@ export const Intro = {
   About: () => (
     <p className="text-base sm:text-xl text-muted-foreground leading-relaxed">
       Saya membangun tools yang menghilangkan kerjaan manual — automation
-      desktop, dashboard real-time, Chrome extension, sampai pipeline yang
-      jalan otomatis di background. Semuanya lahir dari masalah operasional
-      yang saya temui langsung, bukan dari brief atau requirement formal.
+      desktop, dashboard analytics, Chrome extension, sampai pipeline yang
+      berjalan otomatis di background. Semuanya lahir dari masalah operasional
+      yang saya temui langsung.
       <br />
       <br />
-      Kelima tools itu dipakai aktif oleh <Bold>8+ orang setiap shift</Bold>{" "}
-      dan memangkas <Bold>90% kerja manual tim</Bold>. Semua kemampuan ini
-      saya pelajari sendiri, dari kebutuhan nyata di lapangan — bukan dari
-      kelas atau tutorial.
+      Tools-tools itu dipakai aktif oleh <Bold>8+ orang setiap shift</Bold> dan
+      memangkas <Bold>90% kerja manual tim</Bold>.
       <br />
       <br />
-      Sekarang mencari peran yang bisa memakai dan mengasah kemampuan itu
-      lebih jauh.
+      Sekarang saya mencari peran yang bisa memakai dan mengasah kemampuan itu lebih
+      jauh.
     </p>
   ),
 
