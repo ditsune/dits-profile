@@ -7,27 +7,6 @@ import TechBadge from "../tech-badge";
 
 export const PROJECT_LIST = [
   {
-    slug: "mayochat",
-    name: "Mayochat | Take Order Dashboard",
-    description:
-      "Dashboard internal untuk manajemen order — mencakup Take Order dengan lookup username otomatis, Invoice Generator, Template Manager untuk customer service, dan Reseller Tools. Memangkas 80% waktu proses manual yang sebelumnya dikerjakan terpisah-pisah.",
-    imageUrl: "/projects/mayochatsz.png",
-    liveUrl: "https://mayochat.vercel.app",
-    githubUrl: "https://github.com/cuakproject/mayo-tools",
-    tech: ["JavaScript", "ES Modules", "Vercel", "Custom DOM Renderer"],
-    badge: "80% lebih cepat",
-  },
-  {
-    slug: "ditsuy-money",
-    name: "Ditsuy | Catatan Keuangan",
-    description:
-      "Web app fullstack pencatatan keuangan pribadi — multi-user dengan Row Level Security, autentikasi Supabase, dan PWA yang bisa di-install seperti aplikasi native. Saldo dihitung real-time, dilengkapi insight donut chart dan tracking target tabungan.",
-    imageUrl: "/projects/ditsuy.png",
-    githubUrl: "https://github.com/ditsune/ditsuy-money",
-    tech: ["Next.js", "Supabase", "PostgreSQL", "Row Level Security", "PWA"],
-    badge: "Fullstack + Auth",
-  },
-  {
     slug: "mayo-chart",
     name: "Mayo Chart | Forensic Sales Dashboard",
     description:
@@ -38,6 +17,17 @@ export const PROJECT_LIST = [
     githubUrl: "https://github.com/cuakproject/mayo-chart",
     tech: ["Google Apps Script", "Chart.js", "Levenshtein Algorithm"],
     badge: "95% lebih cepat",
+  },
+  {
+    slug: "mayochat",
+    name: "Mayochat | Take Order Dashboard",
+    description:
+      "Dashboard internal untuk manajemen order — mencakup Take Order dengan lookup username otomatis, Invoice Generator, Template Manager untuk customer service, dan Reseller Tools. Memangkas 80% waktu proses manual yang sebelumnya dikerjakan terpisah-pisah.",
+    imageUrl: "/projects/mayochatsz.png",
+    liveUrl: "https://mayochat.vercel.app",
+    githubUrl: "https://github.com/cuakproject/mayo-tools",
+    tech: ["JavaScript", "ES Modules", "Vercel", "Custom DOM Renderer"],
+    badge: "80% lebih cepat",
   },
   {
     slug: "sheet-worker",
@@ -89,6 +79,16 @@ export const PROJECT_LIST = [
     githubUrl: "https://github.com/cuakproject/mayopass",
     tech: ["Node.js", "MongoDB", "Vercel Serverless"],
     badge: "85% lebih cepat",
+  },
+  {
+    slug: "ditsuy-money",
+    name: "Ditsuy | Catatan Keuangan",
+    description:
+      "Web app fullstack pencatatan keuangan pribadi — multi-user dengan Row Level Security, autentikasi Supabase, dan PWA yang bisa di-install seperti aplikasi native. Saldo dihitung real-time, dilengkapi insight donut chart dan tracking target tabungan.",
+    imageUrl: "/projects/ditsuy.png",
+    githubUrl: "https://github.com/ditsune/ditsuy-money",
+    tech: ["Next.js", "Supabase", "PostgreSQL", "Row Level Security", "PWA"],
+    badge: "Fullstack + Auth",
   },
 ];
 
