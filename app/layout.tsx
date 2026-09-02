@@ -5,9 +5,9 @@ import { geistMono, geistSans } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Aditya | Automation & Internal Tools Developer",
+  title: "Aditya | Digital Operations & Tools Developer",
   description:
-    "Membangun automation, dashboard, dan Chrome extension yang dipakai tim setiap hari — memangkas hingga 90% kerja manual. Belajar dari masalah nyata di industri top-up game online, bukan dari tutorial.",
+    "Membangun tools dan automation yang memangkas 90% kerja manual. Berpengalaman di operasional digital & customer support.",
   icons: [{ rel: "icon", url: "/hello.svg" }],
 };
 
