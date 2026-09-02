@@ -5,17 +5,7 @@ export const SOCIAL_LIST = [
   {
     name: "WhatsApp",
     handle: "Aditya",
-    url: "https://wa.me/+628981625232", // TODO: ganti ke nomor WA asli lu
-  },
-  {
-    name: "Telegram",
-    handle: "@dits4u",
-    url: "https://t.me/dits4u/",
-  },
-  {
-    name: "Instagram",
-    handle: "@dits4u",
-    url: "https://instagram.com/dits4u",
+    url: "https://wa.me/+628981625232",
   },
   {
     name: "Github",
@@ -26,14 +16,8 @@ export const SOCIAL_LIST = [
 
 export const Connect = {
   Interest: () => (
-    <p className="text-base sm:text-xl text-muted-foreground leading-relaxed">
-      Saya terbuka untuk posisi{" "}
-      <span className="text-foreground">
-        automation engineer, tools/internal developer, atau junior full-stack
-        developer
-      </span>{" "}
-      — terutama di lingkungan yang menghargai inisiatif dan mau memberi ruang
-      untuk terus belajar.
+    <p className="text-sm text-muted-foreground font-mono">
+      Terbuka untuk diskusi, kolaborasi, atau peluang baru.
     </p>
   ),
 
