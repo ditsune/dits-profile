@@ -16,9 +16,6 @@ export default function SectionConnect({ onRef }: Props) {
         <div className="space-y-6 sm:space-y-8">
           <div className="space-y-2">
             <Heading2>Hubungi Saya</Heading2>
-            <p className="text-sm text-muted-foreground font-mono">
-              Terbuka untuk diskusi, kolaborasi, atau peluang baru.
-            </p>
           </div>
 
           <div className="space-y-6">
