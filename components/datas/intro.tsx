@@ -3,9 +3,9 @@ import TechCard from "../tech-badge";
 
 const FOCUS_SKILL = [
   "Automation & Tooling",
-  "JavaScript / Node.js",
-  "Next.js + Supabase",
-  "Google Apps Script",
+  "Web Development",
+  "Data Ops",
+  "Customer Support",
   "Problem Solving",
   "AI-Assisted Development",
 ];
@@ -13,7 +13,7 @@ const FOCUS_SKILL = [
 export const Intro = {
   Sub: () => (
     <div className="text-sm text-muted-foreground font-mono tracking-wider">
-      Automation & Tools Developer
+      Digital Operations & Tools Developer
     </div>
   ),
 
@@ -27,16 +27,7 @@ export const Intro = {
     <p className="text-base sm:text-xl text-muted-foreground leading-relaxed">
       Saya membangun tools yang menghilangkan kerjaan manual — automation
       desktop, dashboard analytics, Chrome extension, sampai pipeline yang
-      berjalan otomatis di background. Semuanya lahir dari masalah operasional
-      yang saya temui langsung.
-      <br />
-      <br />
-      Tools-tools itu dipakai aktif oleh <Bold>8+ orang setiap shift</Bold> dan
-      memangkas <Bold>90% kerja manual tim</Bold>.
-      <br />
-      <br />
-      Sekarang saya mencari peran yang bisa memakai dan mengasah kemampuan itu lebih
-      jauh.
+      berjalan otomatis di background. Tools aktif dipakai oleh seluruh tim dan berhasil mengiliminasi <Bold>90% kerja manual</Bold>.
     </p>
   ),
 
@@ -54,9 +45,9 @@ export const Intro = {
 
   CurrentJob: () => (
     <div className="space-y-2">
-      <div className="text-foreground">Admin Operasional · Mayoblox</div>
+      <div className="text-foreground">Mencari Peluang Baru</div>
       <div className="text-xs text-muted-foreground">
-        Sep 2025 – Sekarang · Roblox Digital Top-Up Store
+        Full-time · Remote
       </div>
     </div>
   ),
