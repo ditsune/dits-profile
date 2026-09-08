@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export const SOCIAL_LIST = [
   {
-    name: "WhatsApp",
+    name: "LinkedIn",
     handle: "Aditya",
-    url: "https://wa.me/+628981625232",
+    url: "https://www.linkedin.com/in/ditdut/",
   },
   {
     name: "Github",
