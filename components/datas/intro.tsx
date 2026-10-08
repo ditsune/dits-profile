@@ -25,9 +25,10 @@ export const Intro = {
 
   About: () => (
     <p className="text-base sm:text-xl text-muted-foreground leading-relaxed">
-      Saya membuat tools yang menghilangkan kerjaan manual — automation
-      desktop, dashboard analytics, Chrome extension, sampai pipeline yang
-      berjalan otomatis di background. Tools aktif dipakai oleh tim dan berhasil mengiliminasi <Bold>90% kerja manual</Bold>.
+      Saya membuat tools dan automation untuk mempercepat proses kerja dan
+      mengurangi pekerjaan manual. Beberapa tools yang saya buat digunakan oleh
+      tim dan berhasil mengurangi hingga <Bold>90% pekerjaan manual</Bold> yang
+      berulang.
     </p>
   ),
 
