@@ -5,7 +5,7 @@ import { geistMono, geistSans } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Aditya | Digital Operations & Tools Developer",
+  title: "Aditya",
   description:
     "Membangun tools dan automation yang memangkas 90% kerja manual. Berpengalaman di operasional digital & customer support.",
   icons: [{ rel: "icon", url: "/hello.svg" }],
