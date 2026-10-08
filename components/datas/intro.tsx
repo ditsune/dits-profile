@@ -24,11 +24,14 @@ export const Intro = {
   ),
 
   About: () => (
-    <p className="text-base sm:text-xl text-muted-foreground leading-relaxed">
+    <p className="text-base sm:text-xl text-muted-foreground leading-relaxed text-pretty">
       Saya membuat tools dan automation yang membantu pekerjaan menjadi lebih
       cepat, efisien, dan mengurangi pekerjaan manual. Beberapa tools yang saya
       buat digunakan oleh tim dan berhasil mengurangi hingga{" "}
-      <Bold>90% pekerjaan manual</Bold> yang berulang.
+      <span className="whitespace-nowrap">
+        <Bold>90% pekerjaan manual</Bold>
+      </span>{" "}
+      yang berulang.
     </p>
   ),
 
@@ -61,5 +64,3 @@ export const Intro = {
     </div>
   ),
 };
-
-// DEPLOY INI
