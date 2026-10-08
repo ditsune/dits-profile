@@ -25,10 +25,10 @@ export const Intro = {
 
   About: () => (
     <p className="text-base sm:text-xl text-muted-foreground leading-relaxed">
-      Saya membuat tools dan automation untuk mempercepat proses kerja dan
-      mengurangi pekerjaan manual. Beberapa tools yang saya buat digunakan oleh
-      tim dan berhasil mengurangi hingga <Bold>90% pekerjaan manual</Bold> yang
-      berulang.
+      Saya membuat tools dan automation yang membantu pekerjaan menjadi lebih
+      cepat, efisien, dan mengurangi pekerjaan manual. Beberapa tools yang saya
+      buat digunakan oleh tim dan berhasil mengurangi hingga{" "}
+      <Bold>90% pekerjaan manual</Bold> yang berulang.
     </p>
   ),
 
