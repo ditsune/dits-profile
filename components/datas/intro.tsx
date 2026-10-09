@@ -42,7 +42,7 @@ export const Intro = {
         Terbuka untuk peluang baru
       </div>
       <div className="flex items-center gap-1">
-        <span>📍</span>Indonesia
+        <span>📍</span>Tangerang
       </div>
     </div>
   ),
