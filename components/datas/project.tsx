@@ -24,7 +24,7 @@ export const PROJECT_LIST = [
     description:
       "Dashboard internal untuk manajemen order — mencakup Take Order dengan lookup username otomatis, Invoice Generator, Template Manager untuk customer service, dan Reseller Tools. Memangkas 80% waktu proses manual yang sebelumnya dikerjakan terpisah-pisah.",
     imageUrl: "/projects/mayochatsz.png",
-    liveUrl: "https://mayochat.vercel.app",
+    liveUrl: "https://mayocs.vercel.app",
     githubUrl: "https://github.com/cuakproject/mayo-tools",
     tech: ["JavaScript", "ES Modules", "Vercel", "Custom DOM Renderer"],
     badge: "80% lebih cepat",
@@ -71,7 +71,7 @@ export const PROJECT_LIST = [
   },
   {
     slug: "mayopass",
-    name: "Mayopass | Gamepass & Reseller Tools",
+    name: "Mayopass | Gamepass Calculator Tools",
     description:
       "Web app untuk kalkulasi harga Gift Gamepass dan manajemen reseller, dengan backend serverless dan database MongoDB. Memangkas 85% waktu kalkulasi manual — hasil instan, akurat, tanpa risiko human error.",
     imageUrl: "/projects/mayopass.png",
